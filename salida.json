@@ -1,0 +1,1739 @@
+{
+  "config": {
+    "lang": "es",
+    "model_name": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+    "spacy_model": null,
+    "form_size": 50,
+    "n_tid": 14,
+    "n_tod": 14,
+    "n_nt": 22,
+    "tid_pool_size": 25,
+    "tod_pool_size": 80,
+    "nt_pool_size": 120,
+    "top_k_clusters": 3,
+    "min_cluster_cosine_to_doc": 0.5,
+    "max_words_per_chunk": 350,
+    "alpha_pnpmi": 1.0,
+    "include_noun_phrases": true,
+    "include_verbal_phrases": true,
+    "max_np_len": 6,
+    "max_vp_len": 6,
+    "mwe_allow_nominal": true,
+    "mwe_allow_verbal": true,
+    "tod_min_support_score": -1000000000.0,
+    "tod_min_anchor_cosine": -1.0,
+    "tod_min_anchor_pnpmi": -1.0
+  },
+  "topic_clusters": [
+    {
+      "indices": [
+        0,
+        4,
+        10,
+        16
+      ],
+      "centroid_cosine_to_doc": 0.7083507180213928,
+      "terms": [
+        "aire cálido húmedo",
+        "eléctrico",
+        "inestabilidad atmosférica",
+        "tormentas eléctricas"
+      ]
+    },
+    {
+      "indices": [
+        5,
+        8,
+        14
+      ],
+      "centroid_cosine_to_doc": 0.3161233067512512,
+      "terms": [
+        "enfer",
+        "fenómenos severos",
+        "se enfría"
+      ]
+    },
+    {
+      "indices": [
+        2,
+        6,
+        7,
+        9,
+        11,
+        12,
+        13,
+        15
+      ],
+      "centroid_cosine_to_doc": 0.18744757771492004,
+      "terms": [
+        "condensar él",
+        "estudiar",
+        "favorecer",
+        "formar",
+        "prever",
+        "producir",
+        "pueden favorecer",
+        "se forman"
+      ]
+    },
+    {
+      "indices": [
+        1,
+        3
+      ],
+      "centroid_cosine_to_doc": 0.16721172630786896,
+      "terms": [
+        "ascender",
+        "desarrollo vertical"
+      ]
+    }
+  ],
+  "pools": {
+    "tid": [
+      "aire cálido húmedo",
+      "inestabilidad atmosférica",
+      "tormentas eléctricas"
+    ],
+    "tod": [
+      "tormentas",
+      "precipitación",
+      "clima",
+      "temperatura",
+      "meteorología",
+      "humedad",
+      "contaminación",
+      "calentamiento",
+      "aire",
+      "atmósferas",
+      "climas",
+      "climatología",
+      "viento",
+      "turbulento",
+      "erupciones",
+      "evaporación",
+      "lluvia",
+      "calefacción",
+      "tormenta",
+      "invernaderos",
+      "nube",
+      "turbulencia",
+      "huracán",
+      "climáticos",
+      "emisiones",
+      "calor",
+      "frío",
+      "estufa",
+      "calentador",
+      "vapor",
+      "atmosféricos",
+      "combustión",
+      "polución",
+      "enfriamiento",
+      "neblina",
+      "ventilador",
+      "cenit",
+      "niebla",
+      "estorba",
+      "ventiladores",
+      "vidrios",
+      "acondicionador",
+      "secador",
+      "sequía",
+      "meteorológicos",
+      "invierno",
+      "derramamiento",
+      "meteorológicas",
+      "agua",
+      "incineración",
+      "ambiente",
+      "relámpago",
+      "gases",
+      "amortiguador",
+      "invernadero",
+      "insolación",
+      "emisión",
+      "ventilación",
+      "altitud",
+      "compresor",
+      "acondicionamiento",
+      "deslizamiento",
+      "incendio",
+      "tormes",
+      "ciclones",
+      "acuífero",
+      "turbulencias",
+      "fría",
+      "ebullición",
+      "humo",
+      "air",
+      "variabilidad",
+      "condensación",
+      "erupción",
+      "electricidad",
+      "detonante",
+      "inmersión",
+      "alcaldías",
+      "explosión",
+      "heat"
+    ],
+    "nt": [
+      "dentistas",
+      "pensión",
+      "narcisismo",
+      "pension",
+      "narcisista",
+      "accionistas",
+      "bones",
+      "trasplantes",
+      "discriminatorios",
+      "espermatozoides",
+      "profesionalización",
+      "discriminatorias",
+      "accionista",
+      "transexuales",
+      "narciso",
+      "baldes",
+      "profesionalismo",
+      "cookies",
+      "mentores",
+      "patentes",
+      "shampoo",
+      "cromosomas",
+      "transgénero",
+      "infidelidades",
+      "pagarlos",
+      "autismo",
+      "profesionalidad",
+      "tatuajes",
+      "privilegios",
+      "androides",
+      "egos",
+      "knicks",
+      "diamond",
+      "subdirector",
+      "pensiones",
+      "salario",
+      "anonimato",
+      "anorexia",
+      "glándulas",
+      "huesos",
+      "emprendedores",
+      "enzimas",
+      "donantes",
+      "chocolates",
+      "navegadores",
+      "blasfemia",
+      "infidelidad",
+      "remuneradas",
+      "dermatólogo",
+      "moldes",
+      "adopciones",
+      "egoístas",
+      "tendones",
+      "emprendedoras",
+      "remuneraciones",
+      "ovarios",
+      "pasaportes",
+      "tatuaje",
+      "obesidad",
+      "cupcakes",
+      "blockchain",
+      "adopción",
+      "discapacidades",
+      "privilegia",
+      "casting",
+      "ratos",
+      "patriarcales",
+      "autenticación",
+      "deshonestidad",
+      "discapacidad",
+      "hemorroides",
+      "contraseñas",
+      "ratones",
+      "pensionistas",
+      "filantropía",
+      "consulares",
+      "supermercados",
+      "remuneración",
+      "mascotas",
+      "licencias",
+      "donante",
+      "transgénicos",
+      "venderlos",
+      "panaderías",
+      "privatizaciones",
+      "nanotecnología",
+      "sindicatos",
+      "cicatrices",
+      "compensaciones",
+      "autista",
+      "broker",
+      "aristocracia",
+      "patatas",
+      "licencia",
+      "medusas",
+      "deshonestos",
+      "tumores",
+      "prostitutas",
+      "tumor",
+      "sellers",
+      "clones",
+      "subsidios",
+      "legalización",
+      "sofa",
+      "brownies",
+      "dividendos",
+      "moles",
+      "retweets",
+      "clítoris",
+      "arrogantes",
+      "autógrafo",
+      "empleadores",
+      "reencarnación",
+      "repatriación",
+      "freelance",
+      "psiquiatras",
+      "obesa",
+      "neuronas",
+      "patriarcas",
+      "hereditarios"
+    ]
+  },
+  "forms": [
+    {
+      "difficulty": "easy",
+      "TID": [
+        "tormentas eléctricas",
+        "aire cálido húmedo",
+        "inestabilidad atmosférica"
+      ],
+      "TOD": [
+        "agua",
+        "aire",
+        "ambiente",
+        "calor",
+        "frío",
+        "viento",
+        "invierno",
+        "clima",
+        "lluvia",
+        "temperatura",
+        "tormenta",
+        "fría",
+        "humo",
+        "electricidad"
+      ],
+      "NT": [
+        "licencia",
+        "salario",
+        "pensiones",
+        "huesos",
+        "sindicatos",
+        "adopción",
+        "pensión",
+        "privilegios",
+        "discapacidad",
+        "licencias",
+        "mascotas",
+        "subsidios",
+        "accionistas",
+        "prostitutas",
+        "emprendedores",
+        "tatuaje",
+        "patatas",
+        "supermercados",
+        "patentes",
+        "tumor",
+        "tatuajes",
+        "neuronas"
+      ]
+    },
+    {
+      "difficulty": "hard",
+      "TID": [
+        "inestabilidad atmosférica",
+        "aire cálido húmedo",
+        "tormentas eléctricas"
+      ],
+      "TOD": [
+        "amortiguador",
+        "cenit",
+        "climatología",
+        "acuífero",
+        "estorba",
+        "atmosféricos",
+        "insolación",
+        "invernaderos",
+        "incineración",
+        "acondicionador",
+        "turbulencias",
+        "tormes",
+        "ciclones",
+        "turbulento"
+      ],
+      "NT": [
+        "privilegia",
+        "dermatólogo",
+        "discriminatorios",
+        "baldes",
+        "deshonestidad",
+        "remuneradas",
+        "deshonestos",
+        "sellers",
+        "medusas",
+        "infidelidades",
+        "androides",
+        "obesa",
+        "moles",
+        "retweets",
+        "patriarcales",
+        "hereditarios",
+        "pagarlos",
+        "nanotecnología",
+        "adopciones",
+        "discriminatorias",
+        "emprendedoras",
+        "narcisismo"
+      ]
+    }
+  ],
+  "diagnostics": {
+    "lexicon_scoring": {
+      "n_anchors": 3,
+      "n_lex_candidates_after_filter": 16680,
+      "cuts": {
+        "min_support": -1000000000.0,
+        "min_cos": -1.0,
+        "min_pnpmi": -1.0
+      },
+      "TOD": {
+        "support_summary": {
+          "n": 80,
+          "min": 0.18549565970897675,
+          "max": 0.2533169984817505,
+          "mean": 0.20951837226748465,
+          "std": 0.020705349731129585,
+          "percentiles": {
+            "0": 0.18549565970897675,
+            "1": 0.1855333063006401,
+            "5": 0.18633502945303917,
+            "10": 0.18775690495967864,
+            "25": 0.1912461221218109,
+            "50": 0.20034514367580414,
+            "75": 0.22536111250519753,
+            "90": 0.24021563827991485,
+            "95": 0.24702127054333686,
+            "99": 0.25280875772237776,
+            "100": 0.2533169984817505
+          }
+        },
+        "max_cos_summary": {
+          "n": 80,
+          "min": 0.3717435598373413,
+          "max": 0.7806687355041504,
+          "mean": 0.5931169580668211,
+          "std": 0.10042266060946727,
+          "percentiles": {
+            "0": 0.3717435598373413,
+            "1": 0.3743111091852188,
+            "5": 0.4332586362957954,
+            "10": 0.46963263154029844,
+            "25": 0.5187471061944962,
+            "50": 0.6007920503616333,
+            "75": 0.6771068274974823,
+            "90": 0.7136889815330506,
+            "95": 0.7316441893577575,
+            "99": 0.7752980571985244,
+            "100": 0.7806687355041504
+          }
+        },
+        "max_pnpmi_summary": {
+          "n": 80,
+          "min": 0.0,
+          "max": 0.6895150542259216,
+          "mean": 0.3136763105168939,
+          "std": 0.13440154463355655,
+          "percentiles": {
+            "0": 0.0,
+            "1": 0.0,
+            "5": 0.0,
+            "10": 0.16234135180711748,
+            "25": 0.2600170373916626,
+            "50": 0.3260951191186905,
+            "75": 0.3889397159218788,
+            "90": 0.4388005673885348,
+            "95": 0.5221960246562958,
+            "99": 0.5938155817985528,
+            "100": 0.6895150542259216
+          }
+        },
+        "rows": [
+          {
+            "term": "tormentas",
+            "support": 0.2533169984817505,
+            "max_cosine_to_anchor": 0.7540590763092041,
+            "max_pnpmi_to_anchor": 0.5217847228050232
+          },
+          {
+            "term": "precipitación",
+            "support": 0.2526736557483673,
+            "max_cosine_to_anchor": 0.6475314497947693,
+            "max_pnpmi_to_anchor": 0.36871111392974854
+          },
+          {
+            "term": "clima",
+            "support": 0.2526468336582184,
+            "max_cosine_to_anchor": 0.6948471069335938,
+            "max_pnpmi_to_anchor": 0.30923688411712646
+          },
+          {
+            "term": "temperatura",
+            "support": 0.24802064895629883,
+            "max_cosine_to_anchor": 0.7250133752822876,
+            "max_pnpmi_to_anchor": 0.38174036145210266
+          },
+          {
+            "term": "meteorología",
+            "support": 0.24696867167949677,
+            "max_cosine_to_anchor": 0.6499643325805664,
+            "max_pnpmi_to_anchor": 0.2781957685947418
+          },
+          {
+            "term": "humedad",
+            "support": 0.2449609488248825,
+            "max_cosine_to_anchor": 0.7707804441452026,
+            "max_pnpmi_to_anchor": 0.4040834903717041
+          },
+          {
+            "term": "contaminación",
+            "support": 0.24140895903110504,
+            "max_cosine_to_anchor": 0.5019227266311646,
+            "max_pnpmi_to_anchor": 0.6895150542259216
+          },
+          {
+            "term": "calentamiento",
+            "support": 0.24069730937480927,
+            "max_cosine_to_anchor": 0.6690804958343506,
+            "max_pnpmi_to_anchor": 0.29538536071777344
+          },
+          {
+            "term": "aire",
+            "support": 0.24016211926937103,
+            "max_cosine_to_anchor": 0.6553823947906494,
+            "max_pnpmi_to_anchor": 0.3779881000518799
+          },
+          {
+            "term": "atmósferas",
+            "support": 0.23942671716213226,
+            "max_cosine_to_anchor": 0.7255035638809204,
+            "max_pnpmi_to_anchor": 0.38778620958328247
+          },
+          {
+            "term": "climas",
+            "support": 0.23737557232379913,
+            "max_cosine_to_anchor": 0.7085779905319214,
+            "max_pnpmi_to_anchor": 0.5439829230308533
+          },
+          {
+            "term": "climatología",
+            "support": 0.2359294891357422,
+            "max_cosine_to_anchor": 0.6462854743003845,
+            "max_pnpmi_to_anchor": 0.3356532156467438
+          },
+          {
+            "term": "viento",
+            "support": 0.23528027534484863,
+            "max_cosine_to_anchor": 0.6043679714202881,
+            "max_pnpmi_to_anchor": 0.28730934858322144
+          },
+          {
+            "term": "turbulento",
+            "support": 0.23463153839111328,
+            "max_cosine_to_anchor": 0.6510664820671082,
+            "max_pnpmi_to_anchor": 0.26029860973358154
+          },
+          {
+            "term": "erupciones",
+            "support": 0.23461118340492249,
+            "max_cosine_to_anchor": 0.538570761680603,
+            "max_pnpmi_to_anchor": 0.4295772314071655
+          },
+          {
+            "term": "evaporación",
+            "support": 0.23447081446647644,
+            "max_cosine_to_anchor": 0.6921614408493042,
+            "max_pnpmi_to_anchor": 0.32545340061187744
+          },
+          {
+            "term": "lluvia",
+            "support": 0.23296427726745605,
+            "max_cosine_to_anchor": 0.6382203102111816,
+            "max_pnpmi_to_anchor": 0.3069313168525696
+          },
+          {
+            "term": "calefacción",
+            "support": 0.2325192540884018,
+            "max_cosine_to_anchor": 0.6855299472808838,
+            "max_pnpmi_to_anchor": 0.3884195387363434
+          },
+          {
+            "term": "tormenta",
+            "support": 0.23189906775951385,
+            "max_cosine_to_anchor": 0.7806687355041504,
+            "max_pnpmi_to_anchor": 0.14850232005119324
+          },
+          {
+            "term": "invernaderos",
+            "support": 0.22773438692092896,
+            "max_cosine_to_anchor": 0.5365145206451416,
+            "max_pnpmi_to_anchor": 0.3994655907154083
+          },
+          {
+            "term": "nube",
+            "support": 0.22457002103328705,
+            "max_cosine_to_anchor": 0.5471643209457397,
+            "max_pnpmi_to_anchor": 0.32147085666656494
+          },
+          {
+            "term": "turbulencia",
+            "support": 0.22360368072986603,
+            "max_cosine_to_anchor": 0.6718050837516785,
+            "max_pnpmi_to_anchor": 0.226265549659729
+          },
+          {
+            "term": "huracán",
+            "support": 0.22218801081180573,
+            "max_cosine_to_anchor": 0.700285792350769,
+            "max_pnpmi_to_anchor": 0.3852282464504242
+          },
+          {
+            "term": "climáticos",
+            "support": 0.220594123005867,
+            "max_cosine_to_anchor": 0.6803151965141296,
+            "max_pnpmi_to_anchor": 0.33349549770355225
+          },
+          {
+            "term": "emisiones",
+            "support": 0.22040125727653503,
+            "max_cosine_to_anchor": 0.5451033115386963,
+            "max_pnpmi_to_anchor": 0.31249284744262695
+          },
+          {
+            "term": "calor",
+            "support": 0.2198164463043213,
+            "max_cosine_to_anchor": 0.726197361946106,
+            "max_pnpmi_to_anchor": 0.25917232036590576
+          },
+          {
+            "term": "frío",
+            "support": 0.2177838385105133,
+            "max_cosine_to_anchor": 0.6450737118721008,
+            "max_pnpmi_to_anchor": 0.3334742784500122
+          },
+          {
+            "term": "estufa",
+            "support": 0.21772190928459167,
+            "max_cosine_to_anchor": 0.5345196723937988,
+            "max_pnpmi_to_anchor": 0.3064058721065521
+          },
+          {
+            "term": "calentador",
+            "support": 0.21704553067684174,
+            "max_cosine_to_anchor": 0.6831853985786438,
+            "max_pnpmi_to_anchor": 0.4726497530937195
+          },
+          {
+            "term": "vapor",
+            "support": 0.21469353139400482,
+            "max_cosine_to_anchor": 0.6472703814506531,
+            "max_pnpmi_to_anchor": 0.32673683762550354
+          },
+          {
+            "term": "atmosféricos",
+            "support": 0.21348349750041962,
+            "max_cosine_to_anchor": 0.7738704085350037,
+            "max_pnpmi_to_anchor": 0.0
+          },
+          {
+            "term": "combustión",
+            "support": 0.21310625970363617,
+            "max_cosine_to_anchor": 0.47008299827575684,
+            "max_pnpmi_to_anchor": 0.43045157194137573
+          },
+          {
+            "term": "polución",
+            "support": 0.21272101998329163,
+            "max_cosine_to_anchor": 0.47620144486427307,
+            "max_pnpmi_to_anchor": 0.37962979078292847
+          },
+          {
+            "term": "enfriamiento",
+            "support": 0.21263694763183594,
+            "max_cosine_to_anchor": 0.6136873960494995,
+            "max_pnpmi_to_anchor": 0.3905002474784851
+          },
+          {
+            "term": "neblina",
+            "support": 0.21260739862918854,
+            "max_cosine_to_anchor": 0.5528473258018494,
+            "max_pnpmi_to_anchor": 0.4133383631706238
+          },
+          {
+            "term": "ventilador",
+            "support": 0.21133413910865784,
+            "max_cosine_to_anchor": 0.4750710129737854,
+            "max_pnpmi_to_anchor": 0.5300107598304749
+          },
+          {
+            "term": "cenit",
+            "support": 0.20872357487678528,
+            "max_cosine_to_anchor": 0.3717435598373413,
+            "max_pnpmi_to_anchor": 0.5683764815330505
+          },
+          {
+            "term": "niebla",
+            "support": 0.20859754085540771,
+            "max_cosine_to_anchor": 0.5749490261077881,
+            "max_pnpmi_to_anchor": 0.3412342965602875
+          },
+          {
+            "term": "estorba",
+            "support": 0.20336250960826874,
+            "max_cosine_to_anchor": 0.6857529878616333,
+            "max_pnpmi_to_anchor": 0.0
+          },
+          {
+            "term": "ventiladores",
+            "support": 0.2011522352695465,
+            "max_cosine_to_anchor": 0.5237511396408081,
+            "max_pnpmi_to_anchor": 0.436064749956131
+          },
+          {
+            "term": "vidrios",
+            "support": 0.19953805208206177,
+            "max_cosine_to_anchor": 0.3765637278556824,
+            "max_pnpmi_to_anchor": 0.391738623380661
+          },
+          {
+            "term": "acondicionador",
+            "support": 0.19943371415138245,
+            "max_cosine_to_anchor": 0.4815904200077057,
+            "max_pnpmi_to_anchor": 0.40326744318008423
+          },
+          {
+            "term": "secador",
+            "support": 0.19821836054325104,
+            "max_cosine_to_anchor": 0.6130244731903076,
+            "max_pnpmi_to_anchor": 0.40315553545951843
+          },
+          {
+            "term": "sequía",
+            "support": 0.1981450319290161,
+            "max_cosine_to_anchor": 0.5095750689506531,
+            "max_pnpmi_to_anchor": 0.3739454448223114
+          },
+          {
+            "term": "meteorológicos",
+            "support": 0.19734865427017212,
+            "max_cosine_to_anchor": 0.6720228791236877,
+            "max_pnpmi_to_anchor": 0.0
+          },
+          {
+            "term": "invierno",
+            "support": 0.19732438027858734,
+            "max_cosine_to_anchor": 0.5427180528640747,
+            "max_pnpmi_to_anchor": 0.3088172674179077
+          },
+          {
+            "term": "derramamiento",
+            "support": 0.1966003030538559,
+            "max_cosine_to_anchor": 0.5520415902137756,
+            "max_pnpmi_to_anchor": 0.20033350586891174
+          },
+          {
+            "term": "meteorológicas",
+            "support": 0.1963287740945816,
+            "max_cosine_to_anchor": 0.6760373711585999,
+            "max_pnpmi_to_anchor": 0.0
+          },
+          {
+            "term": "agua",
+            "support": 0.19629646837711334,
+            "max_cosine_to_anchor": 0.60467529296875,
+            "max_pnpmi_to_anchor": 0.29090192914009094
+          },
+          {
+            "term": "incineración",
+            "support": 0.19592180848121643,
+            "max_cosine_to_anchor": 0.44695591926574707,
+            "max_pnpmi_to_anchor": 0.3642021119594574
+          },
+          {
+            "term": "ambiente",
+            "support": 0.19586920738220215,
+            "max_cosine_to_anchor": 0.5209745168685913,
+            "max_pnpmi_to_anchor": 0.3089756369590759
+          },
+          {
+            "term": "relámpago",
+            "support": 0.19483625888824463,
+            "max_cosine_to_anchor": 0.7124307155609131,
+            "max_pnpmi_to_anchor": 0.25592464208602905
+          },
+          {
+            "term": "gases",
+            "support": 0.1944035142660141,
+            "max_cosine_to_anchor": 0.5523984432220459,
+            "max_pnpmi_to_anchor": 0.20329950749874115
+          },
+          {
+            "term": "amortiguador",
+            "support": 0.19382509589195251,
+            "max_cosine_to_anchor": 0.5043275356292725,
+            "max_pnpmi_to_anchor": 0.3657436668872833
+          },
+          {
+            "term": "invernadero",
+            "support": 0.1935328096151352,
+            "max_cosine_to_anchor": 0.4655793309211731,
+            "max_pnpmi_to_anchor": 0.3452151119709015
+          },
+          {
+            "term": "insolación",
+            "support": 0.19218310713768005,
+            "max_cosine_to_anchor": 0.37499362230300903,
+            "max_pnpmi_to_anchor": 0.48743847012519836
+          },
+          {
+            "term": "emisión",
+            "support": 0.19217082858085632,
+            "max_cosine_to_anchor": 0.5331246852874756,
+            "max_pnpmi_to_anchor": 0.20785842835903168
+          },
+          {
+            "term": "ventilación",
+            "support": 0.19200025498867035,
+            "max_cosine_to_anchor": 0.5569367408752441,
+            "max_pnpmi_to_anchor": 0.34121406078338623
+          },
+          {
+            "term": "altitud",
+            "support": 0.19149528443813324,
+            "max_cosine_to_anchor": 0.5604950189590454,
+            "max_pnpmi_to_anchor": 0.22222420573234558
+          },
+          {
+            "term": "compresor",
+            "support": 0.19131779670715332,
+            "max_cosine_to_anchor": 0.43343865871429443,
+            "max_pnpmi_to_anchor": 0.4634229242801666
+          },
+          {
+            "term": "acondicionamiento",
+            "support": 0.1910310983657837,
+            "max_cosine_to_anchor": 0.6047183275222778,
+            "max_pnpmi_to_anchor": 0.2698908746242523
+          },
+          {
+            "term": "deslizamiento",
+            "support": 0.19094784557819366,
+            "max_cosine_to_anchor": 0.4549367427825928,
+            "max_pnpmi_to_anchor": 0.4136813282966614
+          },
+          {
+            "term": "incendio",
+            "support": 0.19055365025997162,
+            "max_cosine_to_anchor": 0.47753870487213135,
+            "max_pnpmi_to_anchor": 0.3633922338485718
+          },
+          {
+            "term": "tormes",
+            "support": 0.18989107012748718,
+            "max_cosine_to_anchor": 0.6586722135543823,
+            "max_pnpmi_to_anchor": 0.0
+          },
+          {
+            "term": "ciclones",
+            "support": 0.18952398002147675,
+            "max_cosine_to_anchor": 0.7003445625305176,
+            "max_pnpmi_to_anchor": 0.0
+          },
+          {
+            "term": "acuífero",
+            "support": 0.18902400135993958,
+            "max_cosine_to_anchor": 0.5581417083740234,
+            "max_pnpmi_to_anchor": 0.22925947606563568
+          },
+          {
+            "term": "turbulencias",
+            "support": 0.18901510536670685,
+            "max_cosine_to_anchor": 0.7108998894691467,
+            "max_pnpmi_to_anchor": 0.0
+          },
+          {
+            "term": "fría",
+            "support": 0.1886570304632187,
+            "max_cosine_to_anchor": 0.5972161293029785,
+            "max_pnpmi_to_anchor": 0.24586829543113708
+          },
+          {
+            "term": "ebullición",
+            "support": 0.18840982019901276,
+            "max_cosine_to_anchor": 0.5708210468292236,
+            "max_pnpmi_to_anchor": 0.2737370729446411
+          },
+          {
+            "term": "humo",
+            "support": 0.18819217383861542,
+            "max_cosine_to_anchor": 0.5110421180725098,
+            "max_pnpmi_to_anchor": 0.2824353873729706
+          },
+          {
+            "term": "air",
+            "support": 0.1878591626882553,
+            "max_cosine_to_anchor": 0.6617729663848877,
+            "max_pnpmi_to_anchor": 0.16387902200222015
+          },
+          {
+            "term": "variabilidad",
+            "support": 0.18782144784927368,
+            "max_cosine_to_anchor": 0.48407256603240967,
+            "max_pnpmi_to_anchor": 0.32503703236579895
+          },
+          {
+            "term": "condensación",
+            "support": 0.18717601895332336,
+            "max_cosine_to_anchor": 0.5566751956939697,
+            "max_pnpmi_to_anchor": 0.2608318030834198
+          },
+          {
+            "term": "erupción",
+            "support": 0.1871623694896698,
+            "max_cosine_to_anchor": 0.5120648741722107,
+            "max_pnpmi_to_anchor": 0.2032701075077057
+          },
+          {
+            "term": "electricidad",
+            "support": 0.18655036389827728,
+            "max_cosine_to_anchor": 0.6874150037765503,
+            "max_pnpmi_to_anchor": 0.4207860827445984
+          },
+          {
+            "term": "detonante",
+            "support": 0.186349019408226,
+            "max_cosine_to_anchor": 0.4850093722343445,
+            "max_pnpmi_to_anchor": 0.3148666322231293
+          },
+          {
+            "term": "inmersión",
+            "support": 0.18606922030448914,
+            "max_cosine_to_anchor": 0.4298382103443146,
+            "max_pnpmi_to_anchor": 0.33289065957069397
+          },
+          {
+            "term": "alcaldías",
+            "support": 0.1855655312538147,
+            "max_cosine_to_anchor": 0.6320862770080566,
+            "max_pnpmi_to_anchor": 0.3670075833797455
+          },
+          {
+            "term": "explosión",
+            "support": 0.18554331362247467,
+            "max_cosine_to_anchor": 0.5607960820198059,
+            "max_pnpmi_to_anchor": 0.19027359783649445
+          },
+          {
+            "term": "heat",
+            "support": 0.18549565970897675,
+            "max_cosine_to_anchor": 0.7304644584655762,
+            "max_pnpmi_to_anchor": 0.2923002541065216
+          }
+        ]
+      },
+      "NT": {
+        "support_summary": {
+          "n": 120,
+          "min": -0.007601330988109112,
+          "max": 0.012936831451952457,
+          "mean": 0.006737628319388023,
+          "std": 0.004626281332037495,
+          "percentiles": {
+            "0": -0.007601330988109112,
+            "1": -0.006585314096882939,
+            "5": -0.0026407185243442653,
+            "10": 0.00044272251834627264,
+            "25": 0.004113994538784027,
+            "50": 0.007214578567072749,
+            "75": 0.010522277792915702,
+            "90": 0.012133933603763582,
+            "95": 0.012594251614063978,
+            "99": 0.012889340110123158,
+            "100": 0.012936831451952457
+          }
+        },
+        "max_cos_summary": {
+          "n": 120,
+          "min": 0.0008890032768249512,
+          "max": 0.21807250380516052,
+          "mean": 0.06441902830265463,
+          "std": 0.03560774813343306,
+          "percentiles": {
+            "0": 0.0008890032768249512,
+            "1": 0.004825790300965309,
+            "5": 0.01377822682261467,
+            "10": 0.021138717606663703,
+            "25": 0.04199799709022045,
+            "50": 0.060181986540555954,
+            "75": 0.08420390076935291,
+            "90": 0.10842385441064835,
+            "95": 0.1253548175096512,
+            "99": 0.1641339482367039,
+            "100": 0.21807250380516052
+          }
+        },
+        "max_pnpmi_summary": {
+          "n": 120,
+          "min": 0.0,
+          "max": 0.05371176078915596,
+          "mean": 0.0023764706308914657,
+          "std": 0.00896857529342279,
+          "percentiles": {
+            "0": 0.0,
+            "1": 0.0,
+            "5": 0.0,
+            "10": 0.0,
+            "25": 0.0,
+            "50": 0.0,
+            "75": 0.0,
+            "90": 0.0,
+            "95": 0.017348142899572812,
+            "99": 0.04241034701466561,
+            "100": 0.05371176078915596
+          }
+        },
+        "rows": [
+          {
+            "term": "dentistas",
+            "support": -0.007601330988109112,
+            "max_cosine_to_anchor": 0.010849229991436005,
+            "max_pnpmi_to_anchor": 0.0
+          },
+          {
+            "term": "pensión",
+            "support": -0.006689468864351511,
+            "max_cosine_to_anchor": 0.0008890032768249512,
+            "max_pnpmi_to_anchor": 0.0
+          },
+          {
+            "term": "narcisismo",
+            "support": -0.006141285877674818,
+            "max_cosine_to_anchor": 0.018641021102666855,
+            "max_pnpmi_to_anchor": 0.0
+          },
+          {
+            "term": "pension",
+            "support": -0.0034316061064600945,
+            "max_cosine_to_anchor": 0.0042613595724105835,
+            "max_pnpmi_to_anchor": 0.0
+          },
+          {
+            "term": "narcisista",
+            "support": -0.003351366613060236,
+            "max_cosine_to_anchor": 0.007232047617435455,
+            "max_pnpmi_to_anchor": 0.0
+          },
+          {
+            "term": "accionistas",
+            "support": -0.0026615841779857874,
+            "max_cosine_to_anchor": 0.014769913628697395,
+            "max_pnpmi_to_anchor": 0.0
+          },
+          {
+            "term": "bones",
+            "support": -0.0026396203320473433,
+            "max_cosine_to_anchor": 0.04097812622785568,
+            "max_pnpmi_to_anchor": 0.0
+          },
+          {
+            "term": "trasplantes",
+            "support": -0.0012611524434760213,
+            "max_cosine_to_anchor": 0.026353389024734497,
+            "max_pnpmi_to_anchor": 0.0
+          },
+          {
+            "term": "discriminatorios",
+            "support": -0.0010947621194645762,
+            "max_cosine_to_anchor": 0.010605784133076668,
+            "max_pnpmi_to_anchor": 0.0
+          },
+          {
+            "term": "espermatozoides",
+            "support": -0.0008196614217013121,
+            "max_cosine_to_anchor": 0.054216839373111725,
+            "max_pnpmi_to_anchor": 0.0
+          },
+          {
+            "term": "profesionalización",
+            "support": -0.0004953776951879263,
+            "max_cosine_to_anchor": 0.02245807833969593,
+            "max_pnpmi_to_anchor": 0.0
+          },
+          {
+            "term": "discriminatorias",
+            "support": -0.0001463608059566468,
+            "max_cosine_to_anchor": 0.014320190995931625,
+            "max_pnpmi_to_anchor": 0.0
+          },
+          {
+            "term": "accionista",
+            "support": 0.0005081762210465968,
+            "max_cosine_to_anchor": 0.01573176309466362,
+            "max_pnpmi_to_anchor": 0.007412982173264027
+          },
+          {
+            "term": "transexuales",
+            "support": 0.0005912072956562042,
+            "max_cosine_to_anchor": 0.04233795404434204,
+            "max_pnpmi_to_anchor": 0.0
+          },
+          {
+            "term": "narciso",
+            "support": 0.0009206637623719871,
+            "max_cosine_to_anchor": 0.02141623944044113,
+            "max_pnpmi_to_anchor": 0.0
+          },
+          {
+            "term": "baldes",
+            "support": 0.002354173455387354,
+            "max_cosine_to_anchor": 0.1660761684179306,
+            "max_pnpmi_to_anchor": 0.0
+          },
+          {
+            "term": "profesionalismo",
+            "support": 0.0023639460559934378,
+            "max_cosine_to_anchor": 0.03373808413743973,
+            "max_pnpmi_to_anchor": 0.0
+          },
+          {
+            "term": "cookies",
+            "support": 0.0027087503112852573,
+            "max_cosine_to_anchor": 0.06069003790616989,
+            "max_pnpmi_to_anchor": 0.0
+          },
+          {
+            "term": "mentores",
+            "support": 0.0027418516110628843,
+            "max_cosine_to_anchor": 0.05854091793298721,
+            "max_pnpmi_to_anchor": 0.0
+          },
+          {
+            "term": "patentes",
+            "support": 0.0028691873885691166,
+            "max_cosine_to_anchor": 0.013932384550571442,
+            "max_pnpmi_to_anchor": 0.0
+          },
+          {
+            "term": "shampoo",
+            "support": 0.0029261629097163677,
+            "max_cosine_to_anchor": 0.21807250380516052,
+            "max_pnpmi_to_anchor": 0.0
+          },
+          {
+            "term": "cromosomas",
+            "support": 0.0033277913462370634,
+            "max_cosine_to_anchor": 0.08462360501289368,
+            "max_pnpmi_to_anchor": 0.0
+          },
+          {
+            "term": "transgénero",
+            "support": 0.0034053362905979156,
+            "max_cosine_to_anchor": 0.026773445308208466,
+            "max_pnpmi_to_anchor": 0.0
+          },
+          {
+            "term": "infidelidades",
+            "support": 0.003411645768210292,
+            "max_cosine_to_anchor": 0.1070200502872467,
+            "max_pnpmi_to_anchor": 0.0
+          },
+          {
+            "term": "pagarlos",
+            "support": 0.0035153161734342575,
+            "max_cosine_to_anchor": 0.06243899464607239,
+            "max_pnpmi_to_anchor": 0.0
+          },
+          {
+            "term": "autismo",
+            "support": 0.003607116872444749,
+            "max_cosine_to_anchor": 0.017334789037704468,
+            "max_pnpmi_to_anchor": 0.0
+          },
+          {
+            "term": "profesionalidad",
+            "support": 0.003714293707162142,
+            "max_cosine_to_anchor": 0.03554606810212135,
+            "max_pnpmi_to_anchor": 0.0
+          },
+          {
+            "term": "tatuajes",
+            "support": 0.003771791933104396,
+            "max_cosine_to_anchor": 0.07549038529396057,
+            "max_pnpmi_to_anchor": 0.0
+          },
+          {
+            "term": "privilegios",
+            "support": 0.003871902823448181,
+            "max_cosine_to_anchor": 0.044917937368154526,
+            "max_pnpmi_to_anchor": 0.0
+          },
+          {
+            "term": "androides",
+            "support": 0.0038734199479222298,
+            "max_cosine_to_anchor": 0.07791008055210114,
+            "max_pnpmi_to_anchor": 0.0
+          },
+          {
+            "term": "egos",
+            "support": 0.004194186069071293,
+            "max_cosine_to_anchor": 0.02207161858677864,
+            "max_pnpmi_to_anchor": 0.0
+          },
+          {
+            "term": "knicks",
+            "support": 0.004327922128140926,
+            "max_cosine_to_anchor": 0.040029339492321014,
+            "max_pnpmi_to_anchor": 0.0
+          },
+          {
+            "term": "diamond",
+            "support": 0.004628627561032772,
+            "max_cosine_to_anchor": 0.06196683645248413,
+            "max_pnpmi_to_anchor": 0.0
+          },
+          {
+            "term": "subdirector",
+            "support": 0.004650596529245377,
+            "max_cosine_to_anchor": 0.06927917897701263,
+            "max_pnpmi_to_anchor": 0.0
+          },
+          {
+            "term": "pensiones",
+            "support": 0.004737745970487595,
+            "max_cosine_to_anchor": 0.010605283081531525,
+            "max_pnpmi_to_anchor": 0.04117177799344063
+          },
+          {
+            "term": "salario",
+            "support": 0.004776204936206341,
+            "max_cosine_to_anchor": 0.04339035227894783,
+            "max_pnpmi_to_anchor": 0.008821899071335793
+          },
+          {
+            "term": "anonimato",
+            "support": 0.004778776317834854,
+            "max_cosine_to_anchor": 0.031016744673252106,
+            "max_pnpmi_to_anchor": 0.0
+          },
+          {
+            "term": "anorexia",
+            "support": 0.004822084680199623,
+            "max_cosine_to_anchor": 0.07073696702718735,
+            "max_pnpmi_to_anchor": 0.0
+          },
+          {
+            "term": "glándulas",
+            "support": 0.0049373190850019455,
+            "max_cosine_to_anchor": 0.08436112850904465,
+            "max_pnpmi_to_anchor": 0.0
+          },
+          {
+            "term": "huesos",
+            "support": 0.0049926214851439,
+            "max_cosine_to_anchor": 0.05933408811688423,
+            "max_pnpmi_to_anchor": 0.0
+          },
+          {
+            "term": "emprendedores",
+            "support": 0.0050424993969500065,
+            "max_cosine_to_anchor": 0.05207109823822975,
+            "max_pnpmi_to_anchor": 0.0
+          },
+          {
+            "term": "enzimas",
+            "support": 0.0051733022555708885,
+            "max_cosine_to_anchor": 0.08777150511741638,
+            "max_pnpmi_to_anchor": 0.0
+          },
+          {
+            "term": "donantes",
+            "support": 0.005260891281068325,
+            "max_cosine_to_anchor": 0.0426798015832901,
+            "max_pnpmi_to_anchor": 0.0
+          },
+          {
+            "term": "chocolates",
+            "support": 0.005398052278906107,
+            "max_cosine_to_anchor": 0.12525108456611633,
+            "max_pnpmi_to_anchor": 0.0
+          },
+          {
+            "term": "navegadores",
+            "support": 0.005400648340582848,
+            "max_cosine_to_anchor": 0.0629148781299591,
+            "max_pnpmi_to_anchor": 0.0
+          },
+          {
+            "term": "blasfemia",
+            "support": 0.0054832687601447105,
+            "max_cosine_to_anchor": 0.07036204636096954,
+            "max_pnpmi_to_anchor": 0.0
+          },
+          {
+            "term": "infidelidad",
+            "support": 0.00554628437384963,
+            "max_cosine_to_anchor": 0.11733601242303848,
+            "max_pnpmi_to_anchor": 0.0
+          },
+          {
+            "term": "remuneradas",
+            "support": 0.0056095002219080925,
+            "max_cosine_to_anchor": 0.06494513154029846,
+            "max_pnpmi_to_anchor": 0.0
+          },
+          {
+            "term": "dermatólogo",
+            "support": 0.005976037122309208,
+            "max_cosine_to_anchor": 0.08975346386432648,
+            "max_pnpmi_to_anchor": 0.0
+          },
+          {
+            "term": "moldes",
+            "support": 0.006181100383400917,
+            "max_cosine_to_anchor": 0.11818818747997284,
+            "max_pnpmi_to_anchor": 0.0
+          },
+          {
+            "term": "adopciones",
+            "support": 0.006296914536505938,
+            "max_cosine_to_anchor": 0.05092587321996689,
+            "max_pnpmi_to_anchor": 0.0
+          },
+          {
+            "term": "egoístas",
+            "support": 0.006310663651674986,
+            "max_cosine_to_anchor": 0.05212380364537239,
+            "max_pnpmi_to_anchor": 0.0
+          },
+          {
+            "term": "tendones",
+            "support": 0.006368201691657305,
+            "max_cosine_to_anchor": 0.06597930938005447,
+            "max_pnpmi_to_anchor": 0.0
+          },
+          {
+            "term": "emprendedoras",
+            "support": 0.006398819852620363,
+            "max_cosine_to_anchor": 0.05770127475261688,
+            "max_pnpmi_to_anchor": 0.0
+          },
+          {
+            "term": "remuneraciones",
+            "support": 0.006444719620049,
+            "max_cosine_to_anchor": 0.053976625204086304,
+            "max_pnpmi_to_anchor": 0.0
+          },
+          {
+            "term": "ovarios",
+            "support": 0.006444819271564484,
+            "max_cosine_to_anchor": 0.0868973359465599,
+            "max_pnpmi_to_anchor": 0.0
+          },
+          {
+            "term": "pasaportes",
+            "support": 0.00650513032451272,
+            "max_cosine_to_anchor": 0.05671215429902077,
+            "max_pnpmi_to_anchor": 0.0
+          },
+          {
+            "term": "tatuaje",
+            "support": 0.006709874141961336,
+            "max_cosine_to_anchor": 0.07846280932426453,
+            "max_pnpmi_to_anchor": 0.0
+          },
+          {
+            "term": "obesidad",
+            "support": 0.0069493381306529045,
+            "max_cosine_to_anchor": 0.09510493278503418,
+            "max_pnpmi_to_anchor": 0.0
+          },
+          {
+            "term": "cupcakes",
+            "support": 0.00719604454934597,
+            "max_cosine_to_anchor": 0.15585395693778992,
+            "max_pnpmi_to_anchor": 0.0
+          },
+          {
+            "term": "blockchain",
+            "support": 0.007233112584799528,
+            "max_cosine_to_anchor": 0.03629479557275772,
+            "max_pnpmi_to_anchor": 0.0
+          },
+          {
+            "term": "adopción",
+            "support": 0.007293463684618473,
+            "max_cosine_to_anchor": 0.05044913291931152,
+            "max_pnpmi_to_anchor": 0.0006421750294975936
+          },
+          {
+            "term": "discapacidades",
+            "support": 0.007436672691255808,
+            "max_cosine_to_anchor": 0.04310349375009537,
+            "max_pnpmi_to_anchor": 0.0
+          },
+          {
+            "term": "privilegia",
+            "support": 0.007611340843141079,
+            "max_cosine_to_anchor": 0.0647302195429802,
+            "max_pnpmi_to_anchor": 0.0
+          },
+          {
+            "term": "casting",
+            "support": 0.007713767234236002,
+            "max_cosine_to_anchor": 0.1200714260339737,
+            "max_pnpmi_to_anchor": 0.0
+          },
+          {
+            "term": "ratos",
+            "support": 0.00789918377995491,
+            "max_cosine_to_anchor": 0.03152633458375931,
+            "max_pnpmi_to_anchor": 0.0
+          },
+          {
+            "term": "patriarcales",
+            "support": 0.007979649119079113,
+            "max_cosine_to_anchor": 0.05105551332235336,
+            "max_pnpmi_to_anchor": 0.0
+          },
+          {
+            "term": "autenticación",
+            "support": 0.008088274858891964,
+            "max_cosine_to_anchor": 0.027511756867170334,
+            "max_pnpmi_to_anchor": 0.0
+          },
+          {
+            "term": "deshonestidad",
+            "support": 0.008359975181519985,
+            "max_cosine_to_anchor": 0.048192381858825684,
+            "max_pnpmi_to_anchor": 0.0
+          },
+          {
+            "term": "discapacidad",
+            "support": 0.008492338471114635,
+            "max_cosine_to_anchor": 0.043459076434373856,
+            "max_pnpmi_to_anchor": 0.0
+          },
+          {
+            "term": "hemorroides",
+            "support": 0.00862758606672287,
+            "max_cosine_to_anchor": 0.07640784978866577,
+            "max_pnpmi_to_anchor": 0.0
+          },
+          {
+            "term": "contraseñas",
+            "support": 0.008684199303388596,
+            "max_cosine_to_anchor": 0.05801647901535034,
+            "max_pnpmi_to_anchor": 0.0
+          },
+          {
+            "term": "ratones",
+            "support": 0.008804417215287685,
+            "max_cosine_to_anchor": 0.03486277163028717,
+            "max_pnpmi_to_anchor": 0.0
+          },
+          {
+            "term": "pensionistas",
+            "support": 0.00881949532777071,
+            "max_cosine_to_anchor": 0.04072099179029465,
+            "max_pnpmi_to_anchor": 0.0
+          },
+          {
+            "term": "filantropía",
+            "support": 0.009022681042551994,
+            "max_cosine_to_anchor": 0.07274188101291656,
+            "max_pnpmi_to_anchor": 0.0
+          },
+          {
+            "term": "consulares",
+            "support": 0.009047478437423706,
+            "max_cosine_to_anchor": 0.03668197616934776,
+            "max_pnpmi_to_anchor": 0.0
+          },
+          {
+            "term": "supermercados",
+            "support": 0.009061711840331554,
+            "max_cosine_to_anchor": 0.06038987264037132,
+            "max_pnpmi_to_anchor": 0.0
+          },
+          {
+            "term": "remuneración",
+            "support": 0.009528088383376598,
+            "max_cosine_to_anchor": 0.057784244418144226,
+            "max_pnpmi_to_anchor": 0.03019746206700802
+          },
+          {
+            "term": "mascotas",
+            "support": 0.009696582332253456,
+            "max_cosine_to_anchor": 0.0536947101354599,
+            "max_pnpmi_to_anchor": 0.0
+          },
+          {
+            "term": "licencias",
+            "support": 0.009772531688213348,
+            "max_cosine_to_anchor": 0.05376151576638222,
+            "max_pnpmi_to_anchor": 0.0
+          },
+          {
+            "term": "donante",
+            "support": 0.009861946105957031,
+            "max_cosine_to_anchor": 0.04310072958469391,
+            "max_pnpmi_to_anchor": 0.05371176078915596
+          },
+          {
+            "term": "transgénicos",
+            "support": 0.00988597609102726,
+            "max_cosine_to_anchor": 0.059974100440740585,
+            "max_pnpmi_to_anchor": 0.0
+          },
+          {
+            "term": "venderlos",
+            "support": 0.009896676987409592,
+            "max_cosine_to_anchor": 0.10341159254312515,
+            "max_pnpmi_to_anchor": 0.0
+          },
+          {
+            "term": "panaderías",
+            "support": 0.010073778219521046,
+            "max_cosine_to_anchor": 0.1374899446964264,
+            "max_pnpmi_to_anchor": 0.0
+          },
+          {
+            "term": "privatizaciones",
+            "support": 0.010089592076838017,
+            "max_cosine_to_anchor": 0.09762842953205109,
+            "max_pnpmi_to_anchor": 0.0
+          },
+          {
+            "term": "nanotecnología",
+            "support": 0.010283182375133038,
+            "max_cosine_to_anchor": 0.0310109481215477,
+            "max_pnpmi_to_anchor": 0.0427008755505085
+          },
+          {
+            "term": "sindicatos",
+            "support": 0.010305279865860939,
+            "max_cosine_to_anchor": 0.05167412757873535,
+            "max_pnpmi_to_anchor": 0.016716308891773224
+          },
+          {
+            "term": "cicatrices",
+            "support": 0.01039107609540224,
+            "max_cosine_to_anchor": 0.09388791024684906,
+            "max_pnpmi_to_anchor": 0.0
+          },
+          {
+            "term": "compensaciones",
+            "support": 0.010424235835671425,
+            "max_cosine_to_anchor": 0.04764648154377937,
+            "max_pnpmi_to_anchor": 0.0
+          },
+          {
+            "term": "autista",
+            "support": 0.010497803799808025,
+            "max_cosine_to_anchor": 0.04472045600414276,
+            "max_pnpmi_to_anchor": 0.0
+          },
+          {
+            "term": "broker",
+            "support": 0.010595699772238731,
+            "max_cosine_to_anchor": 0.05834239721298218,
+            "max_pnpmi_to_anchor": 0.0
+          },
+          {
+            "term": "aristocracia",
+            "support": 0.010705829598009586,
+            "max_cosine_to_anchor": 0.06238265335559845,
+            "max_pnpmi_to_anchor": 0.0
+          },
+          {
+            "term": "patatas",
+            "support": 0.01073758490383625,
+            "max_cosine_to_anchor": 0.08171401917934418,
+            "max_pnpmi_to_anchor": 0.038584258407354355
+          },
+          {
+            "term": "licencia",
+            "support": 0.010748626664280891,
+            "max_cosine_to_anchor": 0.06378713995218277,
+            "max_pnpmi_to_anchor": 0.0
+          },
+          {
+            "term": "medusas",
+            "support": 0.01116311363875866,
+            "max_cosine_to_anchor": 0.09986141324043274,
+            "max_pnpmi_to_anchor": 0.0
+          },
+          {
+            "term": "deshonestos",
+            "support": 0.011209730058908463,
+            "max_cosine_to_anchor": 0.040776047855615616,
+            "max_pnpmi_to_anchor": 0.0
+          },
+          {
+            "term": "tumores",
+            "support": 0.011224363930523396,
+            "max_cosine_to_anchor": 0.1088486760854721,
+            "max_pnpmi_to_anchor": 0.0
+          },
+          {
+            "term": "prostitutas",
+            "support": 0.011227445676922798,
+            "max_cosine_to_anchor": 0.10812252759933472,
+            "max_pnpmi_to_anchor": 0.0
+          },
+          {
+            "term": "tumor",
+            "support": 0.011272242292761803,
+            "max_cosine_to_anchor": 0.08023063093423843,
+            "max_pnpmi_to_anchor": 0.029352989047765732
+          },
+          {
+            "term": "sellers",
+            "support": 0.011304233223199844,
+            "max_cosine_to_anchor": 0.12732574343681335,
+            "max_pnpmi_to_anchor": 0.0
+          },
+          {
+            "term": "clones",
+            "support": 0.011374978348612785,
+            "max_cosine_to_anchor": 0.07888039201498032,
+            "max_pnpmi_to_anchor": 0.0
+          },
+          {
+            "term": "subsidios",
+            "support": 0.011445051990449429,
+            "max_cosine_to_anchor": 0.059674087911844254,
+            "max_pnpmi_to_anchor": 0.0
+          },
+          {
+            "term": "legalización",
+            "support": 0.01155733224004507,
+            "max_cosine_to_anchor": 0.06307440251111984,
+            "max_pnpmi_to_anchor": 0.0
+          },
+          {
+            "term": "sofa",
+            "support": 0.011578617617487907,
+            "max_cosine_to_anchor": 0.0735011100769043,
+            "max_pnpmi_to_anchor": 0.0
+          },
+          {
+            "term": "brownies",
+            "support": 0.01200996246188879,
+            "max_cosine_to_anchor": 0.1083766520023346,
+            "max_pnpmi_to_anchor": 0.0
+          },
+          {
+            "term": "dividendos",
+            "support": 0.012012472376227379,
+            "max_cosine_to_anchor": 0.07470467686653137,
+            "max_pnpmi_to_anchor": 0.0
+          },
+          {
+            "term": "moles",
+            "support": 0.01207326352596283,
+            "max_cosine_to_anchor": 0.08510489016771317,
+            "max_pnpmi_to_anchor": 0.0
+          },
+          {
+            "term": "retweets",
+            "support": 0.012122726999223232,
+            "max_cosine_to_anchor": 0.10729360580444336,
+            "max_pnpmi_to_anchor": 0.0
+          },
+          {
+            "term": "clítoris",
+            "support": 0.012234793044626713,
+            "max_cosine_to_anchor": 0.08959560096263885,
+            "max_pnpmi_to_anchor": 0.0
+          },
+          {
+            "term": "arrogantes",
+            "support": 0.012416435405611992,
+            "max_cosine_to_anchor": 0.06859458237886429,
+            "max_pnpmi_to_anchor": 0.0
+          },
+          {
+            "term": "autógrafo",
+            "support": 0.012449035421013832,
+            "max_cosine_to_anchor": 0.08256292343139648,
+            "max_pnpmi_to_anchor": 0.0
+          },
+          {
+            "term": "empleadores",
+            "support": 0.012499780394136906,
+            "max_cosine_to_anchor": 0.08606931567192078,
+            "max_pnpmi_to_anchor": 0.0
+          },
+          {
+            "term": "reencarnación",
+            "support": 0.012526466511189938,
+            "max_cosine_to_anchor": 0.08583691716194153,
+            "max_pnpmi_to_anchor": 0.0
+          },
+          {
+            "term": "repatriación",
+            "support": 0.012590945698320866,
+            "max_cosine_to_anchor": 0.06661362946033478,
+            "max_pnpmi_to_anchor": 0.015863986685872078
+          },
+          {
+            "term": "freelance",
+            "support": 0.012657064013183117,
+            "max_cosine_to_anchor": 0.084151491522789,
+            "max_pnpmi_to_anchor": 0.0
+          },
+          {
+            "term": "psiquiatras",
+            "support": 0.01273877453058958,
+            "max_cosine_to_anchor": 0.0836455374956131,
+            "max_pnpmi_to_anchor": 0.0
+          },
+          {
+            "term": "obesa",
+            "support": 0.012779070995748043,
+            "max_cosine_to_anchor": 0.1289699375629425,
+            "max_pnpmi_to_anchor": 0.0
+          },
+          {
+            "term": "neuronas",
+            "support": 0.012851187027990818,
+            "max_cosine_to_anchor": 0.11088976263999939,
+            "max_pnpmi_to_anchor": 0.0
+          },
+          {
+            "term": "patriarcas",
+            "support": 0.01289828959852457,
+            "max_cosine_to_anchor": 0.055328015238046646,
+            "max_pnpmi_to_anchor": 0.0
+          },
+          {
+            "term": "hereditarios",
+            "support": 0.012936831451952457,
+            "max_cosine_to_anchor": 0.06805425882339478,
+            "max_pnpmi_to_anchor": 0.0
+          }
+        ]
+      }
+    }
+  }
+}

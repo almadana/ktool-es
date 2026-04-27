@@ -1,0 +1,41 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ktool-es"
+version = "0.1.0"
+description = "Replicación (en español) del pipeline de K-tool para generar pruebas de vocabulario temático desde un texto."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "ktool-es contributors" }]
+dependencies = [
+  "numpy>=1.26",
+  "scikit-learn>=1.4",
+  "spacy>=3.7",
+  "sentence-transformers>=3.0",
+  "tqdm>=4.66",
+]
+
+[project.optional-dependencies]
+es = [
+  "wordfreq>=3.0.3",
+]
+dev = [
+  "ruff>=0.6",
+  "pytest>=8.2",
+]
+
+[project.scripts]
+ktool-es = "ktool_es.cli:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.ruff]
+line-length = 100
+

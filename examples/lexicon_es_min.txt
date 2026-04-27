@@ -1,0 +1,22 @@
+# Léxico externo mínimo (placeholder).
+# Un término por línea. Idealmente: solo sustantivos y sintagmas nominales.
+atmósfera
+oxígeno
+planeta
+galaxia
+tormenta
+electrón
+ecosistema
+sedimento
+reacción química
+onda sonora
+temperatura
+montaña
+carretera
+pelota
+alfombra
+sillón
+cuchara
+ventana
+zapato
+

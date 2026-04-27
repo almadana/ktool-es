@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+src/ktool_es/__init__.py
+src/ktool_es/cli.py
+src/ktool_es/nlp.py
+src/ktool_es/pipeline.py
+src/ktool_es/resources.py
+src/ktool_es.egg-info/PKG-INFO
+src/ktool_es.egg-info/SOURCES.txt
+src/ktool_es.egg-info/dependency_links.txt
+src/ktool_es.egg-info/entry_points.txt
+src/ktool_es.egg-info/requires.txt
+src/ktool_es.egg-info/top_level.txt

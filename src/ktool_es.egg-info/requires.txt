@@ -1,0 +1,12 @@
+numpy>=1.26
+scikit-learn>=1.4
+spacy>=3.7
+sentence-transformers>=3.0
+tqdm>=4.66
+
+[dev]
+ruff>=0.6
+pytest>=8.2
+
+[es]
+wordfreq>=3.0.3

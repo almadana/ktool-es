@@ -1,0 +1,2 @@
+[console_scripts]
+ktool-es = ktool_es.cli:main
